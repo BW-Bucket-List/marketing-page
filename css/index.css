@@ -126,9 +126,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-body {
-  font-family: 'Titillium Web', sans-serif;
-}
 h1 {
   font-size: 3.6rem;
 }
@@ -141,6 +138,14 @@ h3 {
 p {
   font-size: 1.6rem;
   line-height: 1.4;
+}
+footer {
+  background: #74898A;
+  text-align: center;
+  padding: 1rem 0;
+}
+footer p {
+  font-size: 1rem;
 }
 .hero-intro .hero-img {
   background-image: url('../images/hero-image.jpg');
