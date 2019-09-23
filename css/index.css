@@ -145,6 +145,10 @@ h5 {
     font-family: 'Titillium Web', sans-serif;
   color: #23293B;
 }
+
+h1{
+  font-size: 3.6rem; 
+}
 h2 {
   font-size: 3.2rem;
 }
