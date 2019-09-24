@@ -232,19 +232,30 @@ footer p {
   display: flex;
   justify-content: space-between;
 }
-.section-content .img-container {
-  width: 45%;
+@media (max-width:650px) {
+  .section-content {
+    flex-direction: column;
+    align-items: center;
+  }
 }
-.section-content .primary-card {
-  background-color: #74898A;
-  color: #fff;
-}
-.section-content .secondary-card {
-  background-color: #fff;
-  color: #74898A;
-}
+.section-content .img-container,
 .section-content .content-card {
   width: 45%;
+}
+@media (max-width:650px) {
+  .section-content .img-container,
+  .section-content .content-card {
+    margin-bottom: 2rem;
+    width: 70%;
+  }
+}
+@media (max-width:500px) {
+  .section-content .img-container,
+  .section-content .content-card {
+    width: 100%;
+  }
+}
+.section-content .content-card {
   position: relative;
 }
 .section-content .content-card p {
@@ -253,6 +264,22 @@ footer p {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80%;
+}
+@media (max-width:650px) {
+  .section-content .content-card p {
+    position: static;
+    transform: translate(0, 0);
+    width: 100%;
+    padding: 2rem;
+  }
+}
+.section-content .primary-card {
+  background-color: #74898A;
+  color: #fff;
+}
+.section-content .secondary-card {
+  background-color: #fff;
+  color: #74898A;
 }
 .secondary-section {
   background-color: #E6E6E6;
