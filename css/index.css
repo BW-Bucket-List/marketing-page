@@ -213,16 +213,24 @@ footer p {
 .section-content .img-container {
   width: 45%;
 }
+.section-content .primary-card {
+  background-color: #74898A;
+  color: #fff;
+}
+.section-content .secondary-card {
+  background-color: #fff;
+  color: #74898A;
+}
 .section-content .content-card {
   width: 45%;
-  border: 3px solid #74898A;
-  padding: 3rem;
   position: relative;
 }
 .section-content .content-card p {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
 }
 .secondary-section {
   background-color: #E6E6E6;
