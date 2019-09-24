@@ -1,3 +1,7 @@
+.home-display-flex {
+  display: flex;
+  justify-content: space-between;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -182,4 +186,72 @@ footer {
 }
 footer p {
   padding: 0;
+}
+.main-hero .hero-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('../images/CoupleTravel.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 15rem 0;
+}
+.main-hero .main-heading-block {
+  width: 50%;
+  color: #fff;
+  border: 2px solid #E6E6E6;
+  padding: 2rem;
+}
+.main-hero .main-heading-block h1 {
+  padding-bottom: 2rem;
+}
+.main-hero .main-heading-block h2 {
+  font-size: 2rem;
+}
+.front-page-sections {
+  padding: 8rem 0;
+}
+.section-content {
+  display: flex;
+  justify-content: space-between;
+}
+.section-content .img-container {
+  width: 45%;
+}
+.section-content .primary-card {
+  background-color: #74898A;
+  color: #fff;
+}
+.section-content .secondary-card {
+  background-color: #fff;
+  color: #74898A;
+}
+.section-content .content-card {
+  width: 45%;
+  position: relative;
+}
+.section-content .content-card p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+.secondary-section {
+  background-color: #E6E6E6;
+}
+.features .features-parent {
+  display: flex;
+  justify-content: space-between;
+}
+.features .feature-block {
+  width: 30%;
+  border: 3px solid #FCC024;
+  padding: 2rem;
+  text-align: center;
+}
+.features .feature-block i {
+  font-size: 3rem;
+}
+.features .feature-block h3 {
+  margin: 1.5rem 0;
+  font-size: 2rem;
 }

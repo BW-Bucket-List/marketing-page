@@ -1,0 +1,84 @@
+.main-hero {
+    .hero-image {
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+      url('../images/CoupleTravel.jpg');
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 15rem 0;
+    }
+
+    .main-heading-block {
+        width: 50%;
+        color: #fff;
+        border: 2px solid @off-white;
+        padding: 2rem;
+
+        h1 {
+            padding-bottom: 2rem;
+        }
+        h2 {
+            font-size: 2rem;
+        }
+    }
+}
+
+.front-page-sections {
+    padding: 8rem 0;
+}
+
+.section-content {
+    .home-display-flex();
+
+    .img-container {
+        width: 45%;
+    }
+
+    .primary-card {
+        .home-page-cards-bg(@grey-blue, #fff);
+    }
+
+    .secondary-card {
+        .home-page-cards-bg(#fff, @grey-blue);
+    }
+
+    .content-card {
+        width: 45%;
+        // border: 3px solid @grey-blue;
+        // padding: 3rem;
+        position: relative;
+
+        p {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+        }
+    }
+}
+
+.secondary-section {
+    background-color: @beach-blue;
+}
+
+.features {
+    .features-parent {
+        .home-display-flex();
+    }
+    .feature-block {
+        width: 30%;
+        border: 3px solid @yellow;
+        padding: 2rem;
+        text-align: center;
+
+        i {
+            font-size: 3rem;
+        }
+
+        h3 {
+            margin: 1.5rem 0;
+            font-size: 2rem;
+        }
+    }
+}
