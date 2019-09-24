@@ -88,12 +88,20 @@
 .features {
     .features-parent {
         .home-display-flex();
+        @media @homepage-phone {
+            flex-direction: column;
+        }
     }
     .feature-block {
         width: 30%;
         border: 3px solid @yellow;
         padding: 2rem;
         text-align: center;
+
+        @media @homepage-phone {
+            width: 100%;
+            margin-bottom: 2rem;
+        }
 
         i {
             font-size: 3rem;

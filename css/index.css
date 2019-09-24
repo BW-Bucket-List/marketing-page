@@ -293,11 +293,22 @@ footer p {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width:500px) {
+  .features .features-parent {
+    flex-direction: column;
+  }
+}
 .features .feature-block {
   width: 30%;
   border: 3px solid #FCC024;
   padding: 2rem;
   text-align: center;
+}
+@media (max-width:500px) {
+  .features .feature-block {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
 }
 .features .feature-block i {
   font-size: 3rem;
