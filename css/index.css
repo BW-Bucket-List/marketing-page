@@ -208,8 +208,12 @@ footer p {
 .MeetTheTeam .ProfileArray {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   width: 100%;
 }
 .MeetTheTeam .ProfileArray .Boxes {
   width: 45%;
+}
+.MeetTheTeam .ProfileArray .Boxes h3 {
+  font-size: 3rem;
 }
