@@ -179,17 +179,19 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid black;
 }
-.Global-Navigation div button {
+.Global-Navigation h1 {
+  font-size: 4rem;
+}
+.Global-Navigation .HeaderLinks {
+  padding: 1rem;
+}
+.Global-Navigation button {
   background-color: #74898A;
   cursor: pointer;
   font-size: 2rem;
   border-radius: 10px;
   color: #E6E6E6;
-}
-.Global-Navigation div .HeaderLinks {
-  padding: 1rem;
 }
 footer {
   background-color: #74898A;
@@ -199,4 +201,15 @@ footer {
 }
 footer p {
   padding: 0;
+}
+.MissionStatement p {
+  border-top: 1px solid #232222;
+}
+.MeetTheTeam .ProfileArray {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.MeetTheTeam .ProfileArray .Boxes {
+  width: 45%;
 }
