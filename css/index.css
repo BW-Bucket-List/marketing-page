@@ -191,10 +191,10 @@ img {
   padding: 1rem;
 }
 .Global-Navigation button {
-  background-color: #74898A;
+  background-color: #FCC024;
   cursor: pointer;
   font-size: 2rem;
-  border-radius: 10px;
+  border-radius: 5rem;
   color: #E6E6E6;
 }
 footer {
@@ -331,4 +331,11 @@ footer p {
 }
 .MeetTheTeam .ProfileArray .Boxes h3 {
   font-size: 3rem;
+}
+.MeetTheTeam .ProfileArray .Boxes img {
+  border: 3px solid #FCC024;
+  border-radius: 10rem;
+  width: 50%;
+  height: 50%;
+  float: left;
 }
