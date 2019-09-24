@@ -134,7 +134,7 @@ html {
 }
 html,
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   color: #232222;
 }
 h1,
@@ -142,7 +142,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Titillium Web', sans-serif;
 }
 h1 {
   font-size: 4rem;
@@ -174,26 +174,36 @@ img {
   margin: 0 auto;
   padding: 0 10px;
 }
-​ .Global-Navigation {
+.Global-Navigation {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 1px;
 }
-​ .Global-Navigation ​ h1 {
+.Global-Navigation ​ h1 {
   font-size: 5rem;
 }
-​ .Global-Navigation ​ div {
-  width: 50%;
+.Global-Navigation ​ div {
+  width: 30%;
   justify-content: space-between;
 }
-​ .Global-Navigation ​ a {
+.Global-Navigation ​ a {
   padding: 1rem;
 }
-​ .Global-Navigation ​ button {
-  background-color: blue;
+.Global-Navigation ​ button {
+  background-color: #74898A;
   cursor: pointer;
   border-radius: 5px;
   color: white;
   margin-left: 2rem;
+}
+footer {
+  background-color: #74898A;
+  text-align: center;
+  color: #171b1b;
+  padding: 1rem 0;
+}
+footer p {
+  padding: 0;
 }
