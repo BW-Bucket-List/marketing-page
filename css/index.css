@@ -174,3 +174,26 @@ img {
   margin: 0 auto;
   padding: 0 10px;
 }
+​ .Global-Navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+​ .Global-Navigation ​ h1 {
+  font-size: 5rem;
+}
+​ .Global-Navigation ​ div {
+  width: 50%;
+  justify-content: space-between;
+}
+​ .Global-Navigation ​ a {
+  padding: 1rem;
+}
+​ .Global-Navigation ​ button {
+  background-color: blue;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  margin-left: 2rem;
+}
