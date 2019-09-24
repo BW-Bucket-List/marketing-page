@@ -204,7 +204,7 @@ footer p {
   padding-bottom: 2rem;
 }
 .section-content {
-  padding: 6rem 0;
+  padding: 8rem 0;
   display: flex;
   justify-content: space-between;
 }
@@ -221,4 +221,7 @@ footer p {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+}
+.secondary-section {
+  background-color: #E6E6E6;
 }
