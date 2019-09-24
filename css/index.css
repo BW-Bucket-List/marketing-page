@@ -174,3 +174,12 @@ img {
   margin: 0 auto;
   padding: 0 10px;
 }
+footer {
+  background-color: #74898A;
+  text-align: center;
+  color: #171b1b;
+  padding: 1rem 0;
+}
+footer p {
+  padding: 0;
+}
