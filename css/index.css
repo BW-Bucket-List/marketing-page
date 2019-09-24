@@ -203,6 +203,9 @@ footer p {
 .main-hero .main-heading-block h1 {
   padding-bottom: 2rem;
 }
+.main-hero .main-heading-block h2 {
+  font-size: 2rem;
+}
 .front-page-sections {
   padding: 8rem 0;
 }
