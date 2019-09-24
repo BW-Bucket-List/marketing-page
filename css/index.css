@@ -1,3 +1,7 @@
+.home-display-flex {
+  display: flex;
+  justify-content: space-between;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -198,4 +202,23 @@ footer p {
 }
 .main-hero .main-heading-block h1 {
   padding-bottom: 2rem;
+}
+.section-content {
+  padding: 6rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.section-content .img-container {
+  width: 45%;
+}
+.section-content .content-card {
+  width: 45%;
+  border: 3px solid #74898A;
+  padding: 3rem;
+  position: relative;
+}
+.section-content .content-card p {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
