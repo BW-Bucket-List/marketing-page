@@ -138,7 +138,7 @@ html {
 }
 html,
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   color: #232222;
 }
 h1,
@@ -146,7 +146,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Titillium Web', sans-serif;
 }
 h1 {
   font-size: 4rem;
@@ -177,6 +177,25 @@ img {
   width: 100%;
   margin: 0 auto;
   padding: 0 10px;
+}
+.Global-Navigation {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Global-Navigation h1 {
+  font-size: 4rem;
+}
+.Global-Navigation .HeaderLinks {
+  padding: 1rem;
+}
+.Global-Navigation button {
+  background-color: #74898A;
+  cursor: pointer;
+  font-size: 2rem;
+  border-radius: 10px;
+  color: #E6E6E6;
 }
 footer {
   background-color: #74898A;
@@ -254,4 +273,19 @@ footer p {
 .features .feature-block h3 {
   margin: 1.5rem 0;
   font-size: 2rem;
+}
+.MissionStatement p {
+  border-top: 1px solid #232222;
+}
+.MeetTheTeam .ProfileArray {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.MeetTheTeam .ProfileArray .Boxes {
+  width: 45%;
+}
+.MeetTheTeam .ProfileArray .Boxes h3 {
+  font-size: 3rem;
 }
