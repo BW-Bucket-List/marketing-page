@@ -203,8 +203,10 @@ footer p {
 .main-hero .main-heading-block h1 {
   padding-bottom: 2rem;
 }
-.section-content {
+.front-page-sections {
   padding: 8rem 0;
+}
+.section-content {
   display: flex;
   justify-content: space-between;
 }
@@ -224,4 +226,21 @@ footer p {
 }
 .secondary-section {
   background-color: #E6E6E6;
+}
+.features .features-parent {
+  display: flex;
+  justify-content: space-between;
+}
+.features .feature-block {
+  width: 30%;
+  border: 3px solid #FCC024;
+  padding: 2rem;
+  text-align: center;
+}
+.features .feature-block i {
+  font-size: 3rem;
+}
+.features .feature-block h3 {
+  margin: 1.5rem 0;
+  font-size: 2rem;
 }

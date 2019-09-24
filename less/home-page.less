@@ -20,8 +20,11 @@
     }
 }
 
-.section-content {
+.front-page-sections {
     padding: 8rem 0;
+}
+
+.section-content {
     .home-display-flex();
 
     .img-container {
@@ -44,4 +47,25 @@
 
 .secondary-section {
     background-color: @beach-blue;
+}
+
+.features {
+    .features-parent {
+        .home-display-flex();
+    }
+    .feature-block {
+        width: 30%;
+        border: 3px solid @yellow;
+        padding: 2rem;
+        text-align: center;
+
+        i {
+            font-size: 3rem;
+        }
+
+        h3 {
+            margin: 1.5rem 0;
+            font-size: 2rem;
+        }
+    }
 }
