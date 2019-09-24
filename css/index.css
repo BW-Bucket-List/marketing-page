@@ -179,24 +179,17 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 1px;
+  border: 1px solid black;
 }
-.Global-Navigation ​ h1 {
-  font-size: 5rem;
-}
-.Global-Navigation ​ div {
-  width: 30%;
-  justify-content: space-between;
-}
-.Global-Navigation ​ a {
-  padding: 1rem;
-}
-.Global-Navigation ​ button {
+.Global-Navigation div button {
   background-color: #74898A;
   cursor: pointer;
-  border-radius: 5px;
-  color: white;
-  margin-left: 2rem;
+  font-size: 2rem;
+  border-radius: 10px;
+  color: #E6E6E6;
+}
+.Global-Navigation div .HeaderLinks {
+  padding: 1rem;
 }
 footer {
   background-color: #74898A;
