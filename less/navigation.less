@@ -18,12 +18,22 @@
             }//closes Headerlinks
 
             button{
-                background-color: @off-white ;
+                background-color: @yellow;
                 cursor: pointer;
                 font-size: 1.5rem;
-                border-radius: 5rem;
-                color: @charcoal;
-                padding: 0.5rem;                
+                border-radius: 5rem;                
+                padding: 0.5rem;
+
+                    a{
+                        color: @grey-blue;
+
+                        :hover{
+                            background-color: @grey-blue;
+                            color: @yellow;
+                        }//closes hover
+                        
+                    }//closes
+
                 }//closes button
         
        @media @mobile{
