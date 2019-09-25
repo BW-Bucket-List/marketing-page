@@ -5,8 +5,14 @@
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
-      padding: 15rem 0;
+    //   padding: 15rem 0;
       height: 100vh;
+    //   position: relative;
+    }
+
+    .container {
+        position: relative;
+        height: inherit;
     }
 
     .main-heading-block {
@@ -14,16 +20,28 @@
         color: #fff;
         border: 2px solid @off-white;
         padding: 2rem;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-60%);
 
         @media @homepage-phone {
-            width: 100%;
+            width: 80%;
         }
 
         h1 {
             padding-bottom: 2rem;
+            font-size: 5rem;
+
+            @media @homepage-tablet {
+                font-size: 3.6rem;
+            }
         }
         h2 {
-            font-size: 2rem;
+            font-size: 2.5rem;
+
+            @media @homepage-tablet {
+                font-size: 2rem;
+            }
         }
     }
 }
