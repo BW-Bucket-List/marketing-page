@@ -8,13 +8,13 @@
 }
 
 .AboutUsBannerImage{
+
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding: 1rem 1rem;
-    border-radius: 2.5rem;
-    // max-width: 100%;
-}
+    border-radius: 2.5rem;    
+    }
 
 .MissionStatement{
 
@@ -25,17 +25,15 @@
 
     h2{
         text-align: center;
-    }
+    }//closes h2
 
     p{
         padding: 2rem;
         background: @grey-blue;
         border-radius: 2.5rem;
-        // border-top: 1px solid @charcoal;
-        // border-bottom: 1px solid @charcoal;
     }//closes p
 
-}//closes missionstatement
+}//closes MissionStatement
 
 .MeetTheTeam{
 
@@ -48,17 +46,16 @@
 
         h2{
             text-align: center;
-        }
-    }
+        }//closes h2
+
+    }//closes TeamHeading
     
     .ProfileArray{
+
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         padding: 1rem 4rem;
-        
-        // border: 1px solid green;
-        // width: 100%;
         
             .boxes{
                 
@@ -73,11 +70,8 @@
                 }//closes h3
 
                 .ProfileSnippet{
-                    // display: block;
-                    // margin-top: 5%;
-                    // margin-bottom: auto;
                     padding-top: 2rem;
-                }
+                }//closes ProfileSnippet
 
                 p{
                     display: block;                   
@@ -85,7 +79,7 @@
                     margin-right: auto;
                     max-width: 40%;
                     font-size: 2rem;
-                }
+                }//closes p
 
                 img{
                     border: 3px solid @yellow;
@@ -93,8 +87,7 @@
                     width: 50%;
                     height: 50%;
                     float: left;
-                }
-
+                }//closes img
 
             }//closes boxes
 
@@ -103,7 +96,8 @@
 
                 .boxes{
                     width:100%;  
-                }
+                }//closes boxes
+
         }//closes media query 500px
 
         @media @mobile350{
@@ -113,8 +107,9 @@
                 h3{
                     font-size: 2rem;
                 }//closes h3
-            }
-        }
-    }//closes profilearray
 
-}//closes meeththeteam
+            }//closes boxes
+        }
+    }//closes ProfileArray
+
+}//closes MeetTheTeam
