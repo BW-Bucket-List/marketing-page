@@ -4,23 +4,43 @@
     display : flex;
     justify-content: space-between;
     align-items: center;
-    // border: 1px solid black;
-    
+    background: @grey-blue;
+    padding: 1.5rem;
+    color: @charcoal;
+        
             h1{
                 font-size: 4rem;
-            }         
+            }//closes h1        
 
             .HeaderLinks{
-                padding: 1rem;
-            }
+                padding: 1.5rem;
+                color:@off-white;
+            }//closes Headerlinks
 
             button{
-                background-color: @yellow;
+                background-color: @off-white ;
                 cursor: pointer;
-                font-size: 2rem;
+                font-size: 1.5rem;
                 border-radius: 5rem;
-                color:@off-white;
-                }
+                color: @charcoal;
+                padding: 0.5rem;                
+                }//closes button
         
-        
-}
+       @media @mobile{
+           flex-direction: column;
+           padding: 1.5rem 0rem 0rem 0rem;
+
+            .HeaderLinks{
+                padding: 0.5rem;
+                font-size: 1.25rem;
+            }//closes HeaderLinks
+
+            div{
+                padding: 1rem 0rem;
+                }//closes div
+
+        }//closes @media @mobile
+
+}//closes Global-Navigation
+
+// class="HeaderLinks"
