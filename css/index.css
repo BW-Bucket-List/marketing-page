@@ -8,6 +8,12 @@
 @media (max-width: 350px) {
   width: 100%;
 }
+@media (max-width: 400px) {
+  width: 100%;
+}
+@media (max-width:700px) {
+  width: 100%;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -196,6 +202,7 @@ img {
 }
 .Global-Navigation h1 {
   font-size: 4rem;
+  font-family: 'Righteous', cursive;
 }
 .Global-Navigation .HeaderLinks {
   padding: 1.5rem;
@@ -225,10 +232,17 @@ img {
   }
   .Global-Navigation .HeaderLinks {
     padding: 0.5rem;
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
   .Global-Navigation div {
     padding: 1rem 0rem;
+  }
+}
+@media (max-width: 500px) and (max-width: 400px) {
+  .Global-Navigation div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 footer {
