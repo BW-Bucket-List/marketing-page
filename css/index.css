@@ -331,6 +331,11 @@ footer p {
 .secondary-section {
   background-color: #E6E6E6;
 }
+@media (max-width:650px) {
+  .secondary-section .section-content {
+    flex-direction: column-reverse;
+  }
+}
 .features .features-parent {
   display: flex;
   justify-content: space-between;

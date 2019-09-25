@@ -102,6 +102,12 @@
 
 .secondary-section {
     background-color: @beach-blue;
+
+    .section-content {
+        @media @homepage-tablet {
+            flex-direction: column-reverse;
+        }
+    }
 }
 
 .features {
