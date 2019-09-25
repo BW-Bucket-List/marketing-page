@@ -5,6 +5,9 @@
 @media (max-width: 500px) {
   width: 100%;
 }
+@media (max-width: 350px) {
+  width: 100%;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -195,20 +198,27 @@ img {
 }
 .Global-Navigation .HeaderLinks {
   padding: 1.5rem;
+  color: #E6E6E6;
 }
 .Global-Navigation button {
   background-color: #E6E6E6;
   cursor: pointer;
   font-size: 1.5rem;
   border-radius: 5rem;
-}
-.Global-Navigation button :hover {
-  background-color: #232222;
-  color: #E6E6E6;
+  color: #232222;
+  padding: 0.5rem;
 }
 @media (max-width: 500px) {
   .Global-Navigation {
     flex-direction: column;
+    padding: 1.5rem 0rem 0rem 0rem;
+  }
+  .Global-Navigation .HeaderLinks {
+    padding: 0.5rem;
+    font-size: 1.25rem;
+  }
+  .Global-Navigation div {
+    padding: 1rem 0rem;
   }
 }
 footer {
@@ -298,7 +308,8 @@ footer p {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 1rem 0rem;
+  padding: 1rem 1rem;
+  border-radius: 2.5rem;
 }
 .MissionStatement {
   display: block;
@@ -311,7 +322,8 @@ footer p {
 }
 .MissionStatement p {
   padding: 2rem;
-  border-top: 1px solid #232222;
+  background: #74898A;
+  border-radius: 2.5rem;
 }
 .MeetTheTeam {
   display: block;
@@ -330,7 +342,7 @@ footer p {
 }
 .MeetTheTeam .ProfileArray .boxes {
   border: 1px solid #FCC024;
-  border-radius: 5rem;
+  border-radius: 2.5rem;
   width: 45%;
   margin: 1rem 0rem;
 }
@@ -361,5 +373,10 @@ footer p {
   }
   .MeetTheTeam .ProfileArray .boxes {
     width: 100%;
+  }
+}
+@media (max-width: 350px) {
+  .MeetTheTeam .ProfileArray .boxes h3 {
+    font-size: 2rem;
   }
 }
