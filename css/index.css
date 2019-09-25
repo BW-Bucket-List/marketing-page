@@ -255,20 +255,20 @@ footer p {
     width: 80%;
   }
 }
-.main-hero .main-heading-block h1 {
+.main-hero .main-heading-block h2 {
   padding-bottom: 2rem;
   font-size: 5rem;
 }
 @media (max-width:650px) {
-  .main-hero .main-heading-block h1 {
+  .main-hero .main-heading-block h2 {
     font-size: 3.6rem;
   }
 }
-.main-hero .main-heading-block h2 {
+.main-hero .main-heading-block h3 {
   font-size: 2.5rem;
 }
 @media (max-width:650px) {
-  .main-hero .main-heading-block h2 {
+  .main-hero .main-heading-block h3 {
     font-size: 2rem;
   }
 }
@@ -319,6 +319,9 @@ footer p {
     width: 100%;
     padding: 2rem;
   }
+}
+.section-content .content-card p {
+  font-size: 1.75rem;
 }
 .section-content .primary-card {
   background-color: #74898A;
