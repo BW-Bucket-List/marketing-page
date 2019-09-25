@@ -2,6 +2,12 @@
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  width: 100%;
+}
+@media (max-width: 350px) {
+  width: 100%;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -183,19 +189,37 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #74898A;
+  padding: 1.5rem;
+  color: #232222;
 }
 .Global-Navigation h1 {
   font-size: 4rem;
 }
 .Global-Navigation .HeaderLinks {
-  padding: 1rem;
+  padding: 1.5rem;
+  color: #E6E6E6;
 }
 .Global-Navigation button {
-  background-color: #FCC024;
+  background-color: #E6E6E6;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1.5rem;
   border-radius: 5rem;
-  color: #E6E6E6;
+  color: #232222;
+  padding: 0.5rem;
+}
+@media (max-width: 500px) {
+  .Global-Navigation {
+    flex-direction: column;
+    padding: 1.5rem 0rem 0rem 0rem;
+  }
+  .Global-Navigation .HeaderLinks {
+    padding: 0.5rem;
+    font-size: 1.25rem;
+  }
+  .Global-Navigation div {
+    padding: 1rem 0rem;
+  }
 }
 footer {
   background-color: #74898A;
@@ -317,25 +341,85 @@ footer p {
   margin: 1.5rem 0;
   font-size: 2rem;
 }
+.aboutContainer {
+  background-color: #E6E6E6;
+}
+.ImageBackground {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../images/Parachuting.jpg);
+}
+.AboutUsBannerImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem 1rem;
+  border-radius: 2.5rem;
+}
+.MissionStatement {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+}
+.MissionStatement h2 {
+  text-align: center;
+}
 .MissionStatement p {
-  border-top: 1px solid #232222;
+  padding: 2rem;
+  background: #74898A;
+  border-radius: 2.5rem;
+}
+.MeetTheTeam {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+}
+.MeetTheTeam .TeamHeading h2 {
+  text-align: center;
 }
 .MeetTheTeam .ProfileArray {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 100%;
+  padding: 1rem 4rem;
 }
-.MeetTheTeam .ProfileArray .Boxes {
+.MeetTheTeam .ProfileArray .boxes {
+  border: 1px solid #FCC024;
+  border-radius: 2.5rem;
   width: 45%;
+  margin: 1rem 0rem;
 }
-.MeetTheTeam .ProfileArray .Boxes h3 {
+.MeetTheTeam .ProfileArray .boxes h3 {
+  text-align: center;
   font-size: 3rem;
 }
-.MeetTheTeam .ProfileArray .Boxes img {
+.MeetTheTeam .ProfileArray .boxes .ProfileSnippet {
+  padding-top: 2rem;
+}
+.MeetTheTeam .ProfileArray .boxes p {
+  display: block;
+  margin-left: 60%;
+  margin-right: auto;
+  max-width: 40%;
+  font-size: 2rem;
+}
+.MeetTheTeam .ProfileArray .boxes img {
   border: 3px solid #FCC024;
   border-radius: 10rem;
   width: 50%;
   height: 50%;
   float: left;
+}
+@media (max-width: 500px) {
+  .MeetTheTeam .ProfileArray {
+    flex-direction: column;
+  }
+  .MeetTheTeam .ProfileArray .boxes {
+    width: 100%;
+  }
+}
+@media (max-width: 350px) {
+  .MeetTheTeam .ProfileArray .boxes h3 {
+    font-size: 2rem;
+  }
 }
