@@ -1,6 +1,33 @@
 // About page code here
+.aboutContainer{
+    background-color: @off-white;
+}
+
+.ImageBackground{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../images/Parachuting.jpg);
+}
+
+.AboutUsBannerImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem 0rem;
+    // max-width: 100%;
+}
+
 .MissionStatement{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+
+    h2{
+        text-align: center;
+    }
+
     p{
+        padding: 2rem;
         border-top: 1px solid @charcoal;
     }//closes p
 
@@ -8,31 +35,72 @@
 
 .MeetTheTeam{
 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    
+    .TeamHeading{
 
+        h2{
+            text-align: center;
+        }
+    }
+    
     .ProfileArray{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        width: 100%;
+        padding: 1rem 4rem;
         
-
-            .Boxes{
-                // border: 1px solid black;
-                width:45%;
+        // border: 1px solid green;
+        // width: 100%;
+        
+            .boxes{
                 
-                        h3{
-                            font-size: 3rem;
-                        }//closes h3
+                border: 1px solid @yellow;
+                border-radius: 5rem;
+                width:45%;
+                margin: 1rem 0rem;
+                
+                h3{
+                    text-align: center;
+                    font-size: 3rem;
+                }//closes h3
+
+                .ProfileSnippet{
+                    // display: block;
+                    // margin-top: 5%;
+                    // margin-bottom: auto;
+                    padding-top: 2rem;
+                }
+
+                p{
+                    display: block;                   
+                    margin-left: 60%;
+                    margin-right: auto;
+                    max-width: 40%;
+                    font-size: 2rem;
+                }
+
+                img{
+                    border: 3px solid @yellow;
+                    border-radius: 10rem;
+                    width: 50%;
+                    height: 50%;
+                    float: left;
+                }
 
 
-                        img{
-                            border: 3px solid @yellow;
-                            border-radius: 10rem;
-                            width: 50%;
-                            height: 50%;
-                            float: left;
-                        }
             }//closes boxes
+
+        @media @mobile{
+            flex-direction: column;
+
+                .boxes{
+                    width:100%;  
+                }
+        }
 
     }//closes profilearray
 

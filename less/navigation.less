@@ -4,6 +4,9 @@
     display : flex;
     justify-content: space-between;
     align-items: center;
+    background: @grey-blue;
+    padding: 1.5rem;
+    color: @charcoal;
     // border: 1px solid black;
     
             h1{
@@ -11,16 +14,23 @@
             }         
 
             .HeaderLinks{
-                padding: 1rem;
+                padding: 1.5rem;
             }
 
             button{
-                background-color: @yellow;
+                background-color: @off-white ;
                 cursor: pointer;
-                font-size: 2rem;
+                font-size: 1.5rem;
                 border-radius: 5rem;
-                color:@off-white;
+                // color:@off-white;
+
+                    :hover{
+                        background-color: @charcoal;
+                        color:@off-white;  
+                    }
                 }
         
-        
+       @media @mobile{
+           flex-direction: column;
+       } 
 }
