@@ -305,7 +305,7 @@ footer p {
 .section-content .content-card {
   position: relative;
 }
-.section-content .content-card p {
+.section-content .content-card .card-text {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -313,12 +313,15 @@ footer p {
   width: 80%;
 }
 @media (max-width:650px) {
-  .section-content .content-card p {
+  .section-content .content-card .card-text {
     position: static;
     transform: translate(0, 0);
     width: 100%;
     padding: 2rem;
   }
+}
+.section-content .content-card h4 {
+  text-align: center;
 }
 .section-content .primary-card {
   background-color: #74898A;
