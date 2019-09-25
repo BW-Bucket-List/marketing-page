@@ -28,7 +28,7 @@
             width: 80%;
         }
 
-        h1 {
+        h2 {
             padding-bottom: 2rem;
             font-size: 5rem;
 
@@ -36,7 +36,7 @@
                 font-size: 3.6rem;
             }
         }
-        h2 {
+        h3 {
             font-size: 2.5rem;
 
             @media @homepage-tablet {
@@ -75,7 +75,7 @@
     .content-card {
         position: relative;
 
-        p {
+        .card-text {
             position: absolute;
             top: 50%;
             left: 50%;
@@ -88,6 +88,10 @@
                 width: 100%;
                 padding: 2rem;
             } // End of tablet media query for p.
+        }
+
+        p {
+            font-size: 1.75rem;
         }
     }
 
@@ -102,6 +106,12 @@
 
 .secondary-section {
     background-color: @beach-blue;
+
+    .section-content {
+        @media @homepage-tablet {
+            flex-direction: column-reverse;
+        }
+    }
 }
 
 .features {
