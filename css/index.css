@@ -185,6 +185,7 @@ img {
   padding: 0 2rem;
 }
 .Global-Navigation {
+  font-family: 'Righteous', cursive;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -201,11 +202,14 @@ img {
   color: #E6E6E6;
 }
 .Global-Navigation button {
+  font-family: 'Righteous', cursive;
   background-color: #FCC024;
   cursor: pointer;
   font-size: 1.5rem;
   border-radius: 5rem;
-  padding: 0.5rem;
+  border-color: #FCC024;
+  border-style: solid;
+  padding: 0.25rem;
 }
 .Global-Navigation button a {
   color: #74898A;
