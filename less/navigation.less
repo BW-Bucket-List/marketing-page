@@ -11,6 +11,7 @@
         
             h1{
                 font-size: 4rem;
+                font-family: 'Righteous', cursive;
             }//closes h1        
 
             .HeaderLinks{
@@ -46,12 +47,20 @@
 
             .HeaderLinks{
                 padding: 0.5rem;
-                font-size: 1.25rem;
+                font-size: 1rem;
             }//closes HeaderLinks
 
             div{
                 padding: 1rem 0rem;
                 }//closes div
+
+            @media @mobile400{
+                div{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
+            }
 
         }//closes @media @mobile
 
