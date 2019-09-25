@@ -201,12 +201,18 @@ img {
   color: #E6E6E6;
 }
 .Global-Navigation button {
-  background-color: #E6E6E6;
+  background-color: #FCC024;
   cursor: pointer;
   font-size: 1.5rem;
   border-radius: 5rem;
-  color: #232222;
   padding: 0.5rem;
+}
+.Global-Navigation button a {
+  color: #74898A;
+}
+.Global-Navigation button a :hover {
+  background-color: #74898A;
+  color: #FCC024;
 }
 @media (max-width: 500px) {
   .Global-Navigation {
@@ -390,7 +396,7 @@ footer p {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1000px;
+  max-width: 1200px;
 }
 .MeetTheTeam .TeamHeading h2 {
   text-align: center;
@@ -404,12 +410,12 @@ footer p {
 .MeetTheTeam .ProfileArray .boxes {
   border: 1px solid #FCC024;
   border-radius: 2.5rem;
-  width: 45%;
+  width: 30%;
   margin: 1rem 0rem;
 }
 .MeetTheTeam .ProfileArray .boxes h3 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .MeetTheTeam .ProfileArray .boxes .ProfileSnippet {
   padding-top: 2rem;
